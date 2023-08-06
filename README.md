@@ -13,3 +13,18 @@ Open your editor and run this file
 > app.py
 
 Then copy the local address and run it on your browser
+
+## Type of Action (Open the file to preview)
+**Move**
+> /static/demoVideo/move.mp4
+
+**Left Click & Right Click**
+> /static/demoVideo/left&rightClick.mp4
+
+**Drag**
+> /static/demoVideo/drag.mp4
+
+**Scroll Up and Down**
+> /static/demoVideo/scrollUp&Down.mp4
+**Screenshot**
+> /static/demoVideo/screenshot.mp4
