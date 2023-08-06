@@ -9,10 +9,10 @@ This is a Final Year Project of Asia Pacific University Student
 To generate a web-based application to allow users to control the mouse by using finger-tracking technology
 
 ## Way to Use
-Open your editor and run this file
+Open your editor and run
 > app.py
 
-Then copy the local address and run it on your browser
+Then copy the local address that show at the terminal panel and run it on your browser
 
 ## Type of Action (Open the file to preview)
 **Move**
