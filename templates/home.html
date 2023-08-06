@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- 
+-Programmer Name: Sim Yoke Shin TP059851
+-Program Name : Intelligen Teaching Web Based Application - home.html
+-Description : Use for create the home page for I.Teach
+-First Written on: 12 Feb 2023
+-Editted on: 22 April 2023 
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Virtual Mouse</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div id="menu">
+		<img class="logo" src="{{ url_for('static', filename='photos/I.Teach_logo_vertical.png') }}" alt="Virtual Mouse Logo">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="#functions">Functions</a></li>
+			<li><a href="/virtual_mouse">Virtual Mouse</a></li>
+		</ul>
+	</div>
+	
+	<div id="title">
+		<img src="{{ url_for('static', filename='photos/I.Teach_logo2.png') }}" alt="Virtual Mouse Logo">
+		<p>Intelligent Teaching Web-Based Application</p>
+		
+	</div>
+
+	<div id="slogan" >
+		<h1>Intelligent Teaching<br>Empowered</h1>
+		<p>Discover the intelligent way to control your computer with I.Teach</p>
+		<a href="/virtual_mouse">Try Demo</a>
+	</div>
+	<h1 style="font-size: 36px; font-family: Arial, sans-serif; text-align: center; margin-top: 40px;margin-bottom: 0;">Scope & Aim</h1>
+	<div  style="display:flex">
+		<div class="panelContent" style="margin-right: 15px; margin-left: 25px;">
+			<h2>Scope</h2>
+			<p>Increase the interactivity and smoothness of the lecturer classes at a minimized cost.</p>
+		</div>
+		<div class="panelContent" style="margin-right: 15px;">
+			<h2>Aim</h2>
+			<p>Enables lecturers to control the mouse through hand gesture.</p>
+		</div>
+	</div>
+
+	<div id="functions">
+		<h1 style="font-size: 36px; font-family: Arial, sans-serif; text-align: center;">Functions</h1>
+		<div  class="function">
+		  <div class="functionTextLeft">
+			<h2>Action 1 : Move</h2>
+			<p>Raise your index finger and move the cursor according to the position of your fingertip.<br> The red box shows an equal scale reduction of the actual size of the screen.</p>
+		  </div>
+		  <div class="videoDemoPanelRight">
+			<video width="400"  class="videoDemo" autoplay loop muted>
+				<source src="static\demoVideo\move.mp4" type="video/mp4">
+			</video>
+		  </div>
+		</div>
+		<div  class="function">
+			
+			<div class="videoDemoPanelLeft">
+				<video width="400"  class="videoDemo" autoplay loop muted>
+					<source src="static\demoVideo\left&rightClick.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="functionTextRight">
+				<h2>Action 2 : Left Click & Right Click</h2>
+				<p>Left Click : raise the index finger + middle finger<br>Right Click : raise the thumb + index finger + middle finger<br><br>Close the index and middle finger to click.</p>
+			</div>
+		</div>
+		<div  class="function">
+			<div class="functionTextLeft">
+			  <h2>Action 3 : Scroll Up & Down</h2>
+			  <p>Scroll Up : raise 4 finger<br>Scroll Down : raise 4 finger and folded</p>
+			</div>
+			<div class="videoDemoPanelRight">
+			  <video width="400"  class="videoDemo" autoplay loop muted>
+				  <source src="static\demoVideo\scrollUp&Down.mp4" type="video/mp4">
+			  </video>
+			</div>
+		  </div>
+		  <div  class="function">
+			  
+			  <div class="videoDemoPanelLeft">
+				  <video width="400"  class="videoDemo" autoplay loop muted>
+					  <source src="static\demoVideo\drag.mp4" type="video/mp4">
+				  </video>
+			  </div>
+			  <div class="functionTextRight">
+				  <h2>Action 4 : Drag</h2>
+				  <p>Raise your thumb and index finger, move the cursor with your index fingertip.<br> The red box shows an equal scale reduction of the actual size of the screen.</p>
+			  </div>
+		  </div>
+
+		  <div  class="function">
+			<div class="functionTextLeft">
+			  <h2>Action 5 : Screenshot</h2>
+			  <p>Do a 'ok' hand action, fold the last three fingers for 1 second to capture the currnet view of screen.<br></p>
+			</div>
+			<div class="videoDemoPanelRight">
+			  <video width="400"  class="videoDemo" autoplay loop muted>
+				  <source src="static\demoVideo\screenshot.mp4" type="video/mp4">
+			  </video>
+			</div>
+		  </div>
+		<div class="buttonPanel">
+			<a id='linkInFunction' href="/virtual_mouse">Try Demo</a>
+		</div>
+		
+	</div>
+</body>
+</html>

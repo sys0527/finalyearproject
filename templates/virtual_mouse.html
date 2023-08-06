@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- 
+-Programmer Name: Sim Yoke Shin TP059851
+-Program Name : Intelligen Teaching Web Based Application - virtual_mouse.html
+-Description : Use for create the Virtual Mouse page for I.Teach
+-First Written on: 12 Feb 2023
+-Editted on: 22 April 2023 
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Virtual Mouse</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+	<div id="menu">
+		<img class="logo" src="{{ url_for('static', filename='photos/I.Teach_logo_vertical.png') }}" alt="Virtual Mouse Logo">
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/#functions">Functions</a></li>
+			<li><a href="/virtual_mouse">Virtual Mouse</a></li>
+		</ul>
+	</div>
+    <div id="title">
+		<img src="{{ url_for('static', filename='photos/I.Teach_logo2.png') }}" alt="Virtual Mouse Logo">
+		<p>Intelligent Teaching Web-Based Application</p>
+		
+	</div>
+    
+    <div id="instructions">
+        <h2>Instructions:</h2>
+        <p>1. Allow access to your webcam</p>
+        <p>2. Place your hand in the red box</p>
+        <p>3. Open Your palm to start control</p>
+        <p>4. Do action refer to the shortcuts</p>
+        <p>5. Remove your hand from the camera</p>
+    </div>
+    
+    <div id="shortcut">
+        <h2>Shortcuts:</h2>
+        <ul>
+            <li>Start Action:<img src="static\photos\palm(open).png" alt="Start Action"></li>
+            <li>Move:<img src="static\photos\index(move).png" alt="Move Action"></li>
+            <li>Left Click:<img src="static\photos\2finger(leftClick).png" alt="Left Click Action"> + closed</li>
+            <li>Right Click:<img src="static\photos\3finger(rightClick).png" alt="Right Click Action"> + closed</li>
+        </ul>
+        <ul>
+            <li>Drag:<img src="static\photos\thumbIndex(drag).png" alt="Drag Action"></li>
+            <li>Scroll Up:<img src="static\photos\4fingerUP(scrollUp).png" alt="Scroll Up Action"></li>
+            <li>Scroll Down:<img src="static\photos\4fingerDOWN(scrollDown).png" alt="Scroll Down Action"></li>
+            <li>Screenshot:<img src="static\photos\ok(screenshot).png" alt="Screenshot Action"> + folded</li>
+        </ul>
+    </div>
+    <div id="videoOutput">
+        <img id="player" src="{{ url_for('video_feed') }}" alt="cameraImage">
+    </div>
+    
+    
+</body>
