@@ -1,0 +1,15 @@
+# Final Year Project (Python/Flask/Finger Tracking/Hand Tracking)
+This is a Final Year Project of Asia Pacific University Student
+
+**Course** : Computer Science(Intelligent System) 
+
+**Keyword** : web-develop, Python, Flask, OpenCV, Model, Hand Tracking, Finger Tracking 
+![Logo of the webpage](/static/photos/I.Teach_logo_vertical.png)
+## Aim
+To generate a web-based application to allow users to control the mouse by using finger-tracking technology
+
+## Way to Use
+Open your editor and run this file
+> app.py
+
+Then copy the local address and run it on your browser
