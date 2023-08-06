@@ -1,4 +1,3 @@
-# -Programmer Name: Sim Yoke Shin TP059851
 # -Program Name : Intelligen Teaching Web Based Application - data_extraction.py
 # -Description : Use for extract the landmarks from dataset and generate into train and test csv file
 # -First Written on: 12 Feb 2023

@@ -1,4 +1,3 @@
-# -Programmer Name: Sim Yoke Shin TP059851
 # -Program Name : Intelligen Teaching Web Based Application - test.py
 # -Description : Use for test the model performance before implement into application
 # -First Written on: 12 Feb 2023

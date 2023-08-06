@@ -1,4 +1,3 @@
-# -Programmer Name: Sim Yoke Shin TP059851
 # -Program Name : Intelligen Teaching Web Based Application - virtualMouseControl.py
 # -Description : Use for generate implement virtual mouse control functions. The main usage is using Mediapipe and self-trained model to recognise and gesture, then use PyautoGUI for control the mouse
 # -First Written on: 25 Feb 2023

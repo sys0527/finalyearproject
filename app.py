@@ -1,4 +1,3 @@
-# -Programmer Name: Sim Yoke Shin TP059851
 # -Program Name : Intelligen Teaching Web Based Application - app.py
 # -Description : Use for generate flask web application and handle request and respond of pages
 # -First Written on: 12 Feb 2023

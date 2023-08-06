@@ -1,4 +1,3 @@
-# -Programmer Name: Sim Yoke Shin TP059851
 # -Program Name : Intelligen Teaching Web Based Application - train.py
 # -Description : Use for train the model for recognise hand gesture
 # -First Written on: 12 Feb 2023
