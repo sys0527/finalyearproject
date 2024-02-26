@@ -26,5 +26,6 @@ Then copy the local address that show at the terminal panel and run it on your b
 
 **Scroll Up and Down**
 > /static/demoVideo/scrollUp&Down.mp4
+
 **Screenshot**
 > /static/demoVideo/screenshot.mp4
