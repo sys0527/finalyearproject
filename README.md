@@ -14,7 +14,7 @@ Open your editor and run
 
 Then copy the local address that show at the terminal panel and run it on your browser
 
-## Type of Action (Open the file to preview)
+## Type of Action
 **Move**
 
 ![Move GIF](static/demoVideo/move.gif)
