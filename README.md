@@ -16,16 +16,21 @@ Then copy the local address that show at the terminal panel and run it on your b
 
 ## Type of Action (Open the file to preview)
 **Move**
+
 ![Move GIF](static/demoVideo/move.gif)
 
 **Left Click & Right Click**
+
 ![Move GIF](static/demoVideo/LeftAndRightClick.gif)
 
 **Drag**
+
 ![Move GIF](static/demoVideo/drag.gif)
 
 **Scroll Up and Down**
+
 ![Move GIF](static/demoVideo/scroll.gif)
 
 **Screenshot**
+
 ![Move GIF](static/demoVideo/screenshot.gif)
